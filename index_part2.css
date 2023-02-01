@@ -1,0 +1,222 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #e6ecf0;
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 46px;
+  z-index: 100;
+  padding: 5px;
+  margin-top: auto;
+  background-color: white;
+  display: flex;
+  
+}
+
+nav{
+  display: inline;
+}
+.headm{
+  margin-left: 15px;
+  flex: 2;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.menu{
+  color: gray;
+  font-size: 16px;
+  font-weight:bold;
+  text-decoration: none;
+}
+.menuicon{
+  color: gray;
+  font-size: 20px;
+  font-weight:bold;
+}
+.menuicon:hover{
+  color: #4AB3F4;
+}
+.menu:hover{
+  text-decoration: underline #4ab3f4;
+  color: #4AB3F4;
+}
+.logo{
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin: auto;
+}
+.midd{
+  flex: 1;
+  
+}
+.tw{
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+.tweet{
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid;
+  background-color: #4AB3F4;
+  color: white  ;
+  font-size: large;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container{
+  max-width:1190px;
+  margin: 56px auto;
+  display: flex;
+  gap: 5px;
+}
+.left{
+  max-width: 290px;
+  max-height: 300px;
+  flex: 1;
+}
+.cover{
+  background-color: black;
+  width: 280px;  
+  height: 100px;
+}
+.cover-pic{
+  width: 170px;
+  display: block;
+  padding-top: 43px;
+  margin: auto;
+}
+.profile{
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  display: flex;
+  
+}
+.nest{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.name{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.sub{
+  font-weight: lighter;
+  color: gray;
+}
+.profile-pic{
+  width: 80px;
+  height: 75px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 3px solid white;
+  z-index: 4;
+  margin-top: -25px;
+}
+.stats{
+  display: flex;
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  gap: 15px;
+}
+.hed{
+  color: gray;
+  font-weight: bold;
+}
+.num{
+  color: #4AB3F4;
+  font-weight: bold;
+}
+.st{
+  padding-left: 15px;
+}
+.mid{
+  flex: 2;
+  display: flex;
+}
+.first{
+  display: flex;
+  background-color: white;
+  min-height: 51px;
+  border-bottom: 1px solid #e6ecf0;
+  padding: 12px;
+}
+.pic{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding-left: 2px;
+}
+.text{
+  padding-left: 15px;
+}
+.b{
+  font-weight: bold;
+}
+.l{
+  font-weight: lighter;
+  color: gray;
+}
+.comment{
+  padding-top: 5px;
+}
+.right{
+  width: 290px;
+  max-height: 200px;
+  background-color: white;
+  padding: 5px;
+  margin-left: 10px;
+  flex: 1;
+}
+.h3{
+  font-size: larger;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.rightb{
+  width: 250px;
+}
+.foll{
+  margin-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: white;
+  color: #4AB3F4;
+  border: 1px solid #4AB3F4;
+  border-radius: 20px 20px 20px 20px;
+}
+.foll:hover{
+  background-color: #4AB3F4;
+  color: white;
+}
+@media screen and (max-width:1200px) {
+  .right{
+    display:none;    
+  }  
+}
+@media screen and (max-width:800px){
+  .menu{
+    display: none;  
+  }  
+}
+@media screen and (min-width:800px) {
+.menuicon{
+    display: none;
+}}
